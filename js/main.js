@@ -20872,3 +20872,4 @@ return Popper;
 //   		]
 // 	});
 // });
+$().button('toggle')
