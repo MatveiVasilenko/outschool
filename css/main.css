@@ -7858,6 +7858,43 @@ a {
       color: #fff;
       margin-right: 20px; }
 
+.form__desc__title {
+  font-size: 52px;
+  line-height: 1;
+  margin-bottom: 30px; }
+
+.forms {
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3); }
+  .forms__input {
+    background: #d7d7d7;
+    color: #9c9c9c;
+    width: 80%;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-color: transparent;
+    margin-bottom: 10px; }
+  .forms__switch {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+    background: #d7d7d7;
+    width: 70%;
+    margin: 15px auto;
+    color: #9c9c9c; }
+    .forms__switch__item {
+      width: 180px;
+      padding: 10px 10px;
+      cursor: pointer;
+      font-size: 20px; }
+      .forms__switch__item--active {
+        background: #414f9e;
+        color: #fff; }
+
 @media screen and (max-width: 768px) {
   .first {
     padding-top: 50px; }
