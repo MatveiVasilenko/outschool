@@ -7944,6 +7944,8 @@ button:hover, button:focus {
     .section__first {
       height: auto;
       text-align: center; }
+      .section__first--general {
+        height: 100vh; }
     .section__about {
       padding-bottom: 0; }
     .section__quote {
@@ -7964,7 +7966,7 @@ button:hover, button:focus {
   .quote__body {
     padding: 10px 0; }
     .quote__body:after {
-      height: 4px;
+      height: 0px;
       width: 80%;
       bottom: -10%;
       left: 10%; }
