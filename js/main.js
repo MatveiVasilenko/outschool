@@ -20872,4 +20872,39 @@ return Popper;
 //   		]
 // 	});
 // });
-$().button('toggle')
+window.onload = () => {
+	const [...switcherItems] = document.querySelectorAll('.forms__switch__item')
+
+	for (let elem of switcherItems) {
+		elem.onclick = () => {
+			if (!elem.classList.contains('forms__switch__item--active')) {
+				elem.classList.add('forms__switch__item--active')
+				console.log(elem.nextElementSibling)
+				if (elem.nextElementSibling != null) {
+					elem.nextElementSibling.classList.remove('forms__switch__item--active')
+					console.log('Hello')
+				}
+				if (elem.previousElementSibling != null) {
+					elem.previousElementSibling.classList.remove('forms__switch__item--active')
+					console.log(elem.previousElementSibling)
+
+				}					
+			}
+		}
+	}
+
+	const aboutMe = document.getElementById('aboutMe')
+	const aboutMeText = document.getElementById('aboutMeText')
+
+	aboutMe.onclick = () => {
+		if(!aboutMeText.classList.contains('teacher--active')) {
+			aboutMeText.classList.add('teacher--active')
+		} else {
+			aboutMeText.classList.remove('teacher--active')
+		}
+	}
+}
+
+const switcher = () => {
+
+}
