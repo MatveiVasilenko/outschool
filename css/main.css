@@ -7449,6 +7449,9 @@ a {
 button:hover, button:focus {
   outline: none; }
 
+input:hover, input:focus {
+  outline: none; }
+
 .section {
   padding: 40px 0; }
   .section__about {
@@ -7545,6 +7548,18 @@ button:hover, button:focus {
 .color--orange {
   color: #ff6901 !important; }
 
+.color--green {
+  color: #337a3d !important; }
+
+.color--purple {
+  color: #bb05fa !important; }
+
+.color--lightblue {
+  color: #7060cd !important; }
+
+.color--aqua {
+  color: #016b9a !important; }
+
 .bg--orange {
   background: #ff6901 !important; }
 
@@ -7553,6 +7568,18 @@ button:hover, button:focus {
 
 .bg--color {
   background: #414f9e !important; }
+
+.bg--green {
+  background: #337a3d !important; }
+
+.bg--purple {
+  background: #bb05fa !important; }
+
+.bg--lightblue {
+  background: #7060cd !important; }
+
+.bg--aqua {
+  background: #016b9a !important; }
 
 .fw700 {
   font-weight: 700; }
